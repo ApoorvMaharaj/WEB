@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'AlphaCentauri';
+    src: url(./alphacentauri.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+h1
+{
+    font-family: AlphaCentauri;
+    font-weight: 50;
+    font-size: 200px;
+    text-align: center;
+    /* color: rgb(247, 83, 165); */
+    color: rgb(247, 149, 83);
+}
