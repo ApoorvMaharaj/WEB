@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- <script src="./assets/script.js"></script> -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <title>Java Script button | Apoorv Kumar</title>
+</head>
+<body>
+    <!-- This part contains the heading. -->
+    <div id="heading1">
+        <h1>
+            Hello<br>World
+        </h1>
+    </div>
+    <!-- This part contains the paragraph upon the javascript button. -->
+    <!-- <div id="buttontext">
+        <p id="bt">
+            Click the button.
+        </p>
+    </div> -->
+    <!-- This part contains the javascript call-function button. -->
+    <div id="button1">
+        <button id="myBtn" type="button">CLICK HERE</button>
+    </div>
+    <script>
+        const myBtn = document.getElementById("myBtn");
+        console.log("This is a javascript function")
+        myBtn.addEventListener("click", function(e) 
+        {
+            const name = prompt("I am Apoorv Maharaj. What's your name?");
+            console.log(name);
+            document.body.innerHTML = "<h2> Nice to meet you, <br><h1>" + name + "</h2><h1>";
+        });
+    </script>
+</body>
+</html>

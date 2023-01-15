@@ -1,0 +1,84 @@
+/* All the global formatting are done here */
+*
+{
+    padding: 0;
+}
+/* All the body related formatting are in this section.  */
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(10, 10, 10);
+}
+/* Font imported.  */
+@font-face {
+    font-family: alphacentauri;
+    src: url(./fonts/alphacentauri.ttf);
+}
+/* All the heading related formatting are in this section.  */
+/* h1{
+    margin: 0;
+    padding: 0;
+    
+} */
+/* #heading1
+{
+    font-family: alphacentauri;
+    color: #ffff;
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+} */
+h1
+{
+    font-family: alphacentauri;
+    color: #ffff;
+    font-size: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+h2
+{
+    font-family: alphacentauri;
+    color: #ffff;
+    font-size: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+/* All the button paragraph related formatting are in section.  */
+#bt
+{
+    font-family: poppins;
+    color: #ffff;
+    margin-left: 100px;
+    padding: 0;
+    font-size: 40px;
+}
+/* All the button related formatting are done in this section. */
+#myBtn
+{
+    width: 250px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #0162c2, #55e7fc);
+    border-radius: 35px;
+    /* border-width: 2px;
+    
+    border-color: #ffff;
+    text-align: center; */
+    color: #ffff;
+}
+button
+{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffff;
+    letter-spacing: 3px;
+}
