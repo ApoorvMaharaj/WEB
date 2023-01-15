@@ -1,6 +1,8 @@
 body
 {
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 0;
 }
 @font-face {
     font-family: alphacentauri;
@@ -10,11 +12,56 @@ body
 {
     font-family: alphacentauri;
     font-size: 250px;
-    color: rgb(247, 189, 83);
+    color: rgb(246, 133, 72);
     text-align: center;
+    background-image: url("./image1test.webp");
 }
 #logo
 {
     max-width: 250px;
     align-items: center;
+}
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px blanchedalmond;
+}
+::-ms-tooltip title
+{
+    border-radius: 10px;
+}
+#click1
+{
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(246, 133, 72);
+}
+#clickhere
+{
+    font-family: poppins;
+    font-weight: bold;
+
+}
+#button1
+{
+    width: auto;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px rgb(246, 133, 72);
+    border-radius: 10px;
+}
+#border
+{
+    height: 300px;
+    width: auto;
+    border: 5px rgb(246, 133, 72);
+}
+#buttontext
+{
+    color: rgb(246, 133, 72);
 }
